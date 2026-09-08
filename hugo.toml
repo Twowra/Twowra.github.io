@@ -9,6 +9,7 @@ mainSections = ['post']
 [params.sidebar]
 emoji = '😚'
 subtitle = '动画爱好者，时不时发一些技术学习内容喵'
+avatar = '/images/tsutsukakushitsukiko.png'
 
 [params.article]
 math = false
