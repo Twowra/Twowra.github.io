@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ with .Content }}
+        <div class="homepage-welcome" style="text-align: center; margin: 2rem 0; font-size: 1.1rem; line-height: 1.8;">
+            {{ . }}
+        </div>
+    {{ end }}
+
+    {{- $paginator := partial "helper/paginator.html" . -}}
+
+    <section class="article-list">
+        {{ range $index, $element := $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
