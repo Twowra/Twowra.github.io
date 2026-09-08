@@ -1,14 +1,14 @@
 baseURL = 'https://Twowra.github.io/'
 languageCode = 'zh-cn'
-title = '我的博客'
+title = '大笨蛋的博客'
 theme = 'stack'
 
 [params]
 mainSections = ['post']
 
 [params.sidebar]
-emoji = '🌱'
-subtitle = '技术 · 经验 · 发现'
+emoji = '😚'
+subtitle = '动画爱好者，时不时发一些技术学习内容喵'
 
 [params.article]
 math = false
