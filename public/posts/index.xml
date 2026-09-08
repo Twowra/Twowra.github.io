@@ -4,5 +4,12 @@
         <link>http://localhost:1313/posts/</link>
         <description>Recent content in Posts on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /></channel>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 08 Sep 2026 20:11:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>第一篇博客</title>
+            <link>http://localhost:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+            <pubDate>Tue, 08 Sep 2026 20:11:28 +0800</pubDate>
+            <guid>http://localhost:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+            <description>&lt;p&gt;我上传了我的第一篇博客！&lt;/p&gt;&#xA;</description>
+        </item></channel>
 </rss>
