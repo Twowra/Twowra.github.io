@@ -1,3 +1,28 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://Twowra.github.io/'
+languageCode = 'zh-cn'
+title = '我的博客'
+theme = 'stack'
+
+[params]
+mainSections = ['post']
+
+[params.sidebar]
+emoji = '🌱'
+subtitle = '技术 · 经验 · 发现'
+
+[params.article]
+math = false
+toc = true
+
+[params.comments]
+enabled = true
+provider = 'giscus'
+
+[params.comments.giscus]
+repo = 'Twowra/Twowra.github.io'
+repoID = 'R_kgDOUSI2jA'
+category = 'Announcements'
+categoryID = 'DIC_kwDOUSI2jM4DFIwP'
+mapping = 'pathname'
+lightTheme = 'github_light'
+darkTheme = 'github_dark'
