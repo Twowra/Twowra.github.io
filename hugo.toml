@@ -27,3 +27,5 @@ categoryID = 'DIC_kwDOUSI2jM4DFIwP'
 mapping = 'pathname'
 lightTheme = 'github_light'
 darkTheme = 'github_dark'
+[markup.goldmark.renderer]
+unsafe = true
