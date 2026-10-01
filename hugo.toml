@@ -1,5 +1,5 @@
 baseURL = 'https://Twowra.github.io/'
-languageCode = 'zh-cn'
+locale = 'zh'
 title = '大笨蛋的博客'
 theme = 'stack'
 
@@ -15,6 +15,7 @@ avatar = '/images/tsutsukakushitsukiko.png'
 math = false
 toc = true
 
+
 [params.comments]
 enabled = true
 provider = 'giscus'
@@ -27,5 +28,17 @@ categoryID = 'DIC_kwDOUSI2jM4DFIwP'
 mapping = 'pathname'
 lightTheme = 'github_light'
 darkTheme = 'github_dark'
+
+
+
+
+[params.footer]
+since = 2026
+customText = '笨蛋的碎碎念'
+
+
+
+
+
 [markup.goldmark.renderer]
 unsafe = true
